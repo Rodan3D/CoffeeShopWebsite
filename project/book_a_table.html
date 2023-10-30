@@ -1,0 +1,69 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Coffee</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style_book_a_table.css" />
+		<!-- Подключаем JS -->
+		<script type="text/javascript" src="js/script_index.js"></script>
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<!--  Адаптация -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Подключаем шрифты -->
+		<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+		<!-- Подключаем иконку -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" href="img/favicon.ico">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class='wrapper'>
+			<div class="container">
+				<div class='title'>
+					<div class='title_name'> <p>COFFEE</p></div>
+					<div class='title_hotline'><p>Hot line </p> +7 (8493)31-35-60 </div>
+				</div>
+				<div class="topnav" id="myTopnav">
+					<a href="index.html" class="active">Main</a>
+	 				<a href="about.html">About</a>
+					<a href="assortment.html">Assortment</a>
+					<a href="reviews.html">Reviews</a>
+					<a href="book_a_table.html">Book a Table</a>
+					<a href="our_clients.html">Ours Clients</a>
+					<a href="contacts.html">Contacts</a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+				</div>
+				<main class="main">
+					<div class="main_container">
+						<form action="action_page.php">
+
+							<label for="fname">Имя / First Name</label>
+							<input type="text" id="fname" name="firstname" placeholder="Ваше имя / Your name..">
+
+							<label for="lname">Фамилия / Last Name</label>
+							<input type="text" id="lname" name="lastname" placeholder="Ваша Фамилия / Your last name..">
+
+							<label for="subject">Описание / Subject</label>
+							<textarea id="subject" name="subject" placeholder="Пишите здесь / Write something.." style="height:200px"></textarea>
+
+							<input type="submit" value="Submit">
+
+						</form>
+					</div>
+				</main>
+				<footer class="footer">
+					<div class="footer_row">
+						<div class="footer_text"> Rodan3D 2023 </div>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>

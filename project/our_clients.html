@@ -1,0 +1,111 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Coffee</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style_our_clients.css" />
+		<!-- Подключаем JS -->
+		<script type="text/javascript" src="js/script_our_clients.js"></script>
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<!--  Адаптация -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Подключаем шрифты -->
+		<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+		<!-- Подключаем иконку -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" href="img/favicon.ico">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class='wrapper'>
+			<div class="container">
+				<div class='title'>
+					<div class='title_name'> <p>COFFEE</p></div>
+					<div class='title_hotline'><p>Hot line </p> +7 (8493)31-35-60 </div>
+				</div>
+				<div class="topnav" id="myTopnav">
+					<a href="index.html" class="active">Main</a>
+	 				<a href="about.html">About</a>
+					<a href="assortment.html">Assortment</a>
+					<a href="reviews.html">Reviews</a>
+					<a href="book_a_table.html">Book a Table</a>
+					<a href="our_clients.html">Ours Clients</a>
+					<a href="contacts.html">Contacts</a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+				</div>
+				<main class="main">
+					<div class="main_container">
+						<h1> Гости, которые у нас были</h1>
+						  <!-- Slideshow container -->
+						<div class="slideshow-container">
+
+						  <!-- Full-width images with number and caption text -->
+						  <div class="mySlides fade">
+						    <div class="numbertext">1 / 6</div>
+						    <img src="img/slide_1.jpg" style="width:100%">
+						    <div class="text">Jony и Агутин</div>
+						  </div>
+
+						  <div class="mySlides fade">
+						    <div class="numbertext">2 / 6</div>
+						    <img src="img/slide_2.jpg" style="width:100%">
+						    <div class="text">Валерия</div>
+						  </div>
+
+						  <div class="mySlides fade">
+						    <div class="numbertext">3 / 6</div>
+						    <img src="img/slide_3.jpg" style="width:100%">
+						    <div class="text">Митя Фомин</div>
+						  </div>
+
+						  <div class="mySlides fade">
+						    <div class="numbertext">4 / 6</div>
+						    <img src="img/slide_4.jpeg" style="width:100%">
+						    <div class="text">Иванушки International</div>
+						  </div>
+
+						  <div class="mySlides fade">
+						    <div class="numbertext">5 / 6</div>
+						    <img src="img/slide_5.jpg" style="width:100%">
+						    <div class="text">Niletto</div>
+						  </div>
+
+						  <div class="mySlides fade">
+						    <div class="numbertext">6 / 6</div>
+						    <img src="img/slide_6.jpg" style="width:100%">
+						    <div class="text">Юлия Ковальчук</div>
+						  </div>
+
+						  <!-- Next and previous buttons -->
+						  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+						</div>
+						<br>
+
+						<!-- The dots/circles -->
+						<div style="text-align:center">
+						  <span class="dot" onclick="currentSlide(1)"></span>
+						  <span class="dot" onclick="currentSlide(2)"></span>
+						  <span class="dot" onclick="currentSlide(3)"></span>
+						  <span class="dot" onclick="currentSlide(4)"></span>
+						  <span class="dot" onclick="currentSlide(5)"></span>
+						  <span class="dot" onclick="currentSlide(6)"></span>
+						</div>
+					</div>
+				</main>
+				<footer class="footer">
+					<div class="footer_row">
+						<div class="footer_text"> Rodan3D 2023 </div>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>
